@@ -1,0 +1,10 @@
+{
+  "name": "bob-quantpilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QuantPilot source-faithful migration for BOB",
+  "scripts": {
+    "start": "python3 pilot.py --port 3000 --no-browser",
+    "check": "python3 -m compileall -q app pilot.py"
+  }
+}
